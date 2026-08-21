@@ -56,10 +56,7 @@ export function FleetPage() {
     }
   }
 
-  const handleCapacityChange = (capId: string) => {
-    clearExactCapacity()
-    setSelectedCapacity(capId)
-  }
+
 
   const handleSearchChange = (query: string) => {
     clearExactCapacity()
