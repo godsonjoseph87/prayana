@@ -18,22 +18,6 @@ export function CustomerReviews() {
   return (
     <section id="reviews-section" className="scroll-mt-24 py-16 md:py-24 bg-brand-light/60 border-t border-brand-dark/10 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Trust Metrics Bar */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 pb-16 border-b border-brand-dark/10">
-          {TRUST_METRICS.map((metric, idx) => (
-            <div key={idx} className="flex flex-col items-center text-center p-4 bg-white/60 rounded-2xl border border-brand-dark/5 shadow-xs">
-              <span className="text-3xl sm:text-4xl md:text-5xl font-bold text-brand-dark font-helvetica-neue tracking-tight">
-                {metric.value}
-              </span>
-              <span className="text-sm font-semibold text-brand-dark mt-1">
-                {metric.label}
-              </span>
-              <span className="text-xs text-brand-dark/60 mt-0.5 max-w-[180px]">
-                {metric.description}
-              </span>
-            </div>
-          ))}
-        </div>
 
         {/* Reviews Section Header */}
         <div className="mt-16 text-center max-w-2xl mx-auto mb-12">
@@ -141,6 +125,23 @@ export function CustomerReviews() {
           <ThumbsUp className="w-4 h-4 text-emerald-600" />
           <span>4.9 / 5.0 Average Rating across 1,200+ Google Reviews & Direct Feedback</span>
           <ShieldCheck className="w-4 h-4 text-emerald-600 ml-2" />
+        </div>
+
+        {/* Trust Metrics Bar */}
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-16 mt-16 border-t border-brand-dark/10">
+          {TRUST_METRICS.map((metric, idx) => (
+            <div key={idx} className="flex flex-col items-center text-center p-6 bg-white/60 rounded-2xl border border-brand-dark/5 shadow-xs">
+              <span className="text-3xl sm:text-4xl md:text-5xl font-bold text-brand-dark font-helvetica-neue tracking-tight">
+                {metric.value}
+              </span>
+              <span className="text-sm font-semibold text-brand-dark mt-2">
+                {metric.label}
+              </span>
+              <span className="text-xs text-brand-dark/60 mt-1 max-w-[200px]">
+                {metric.description}
+              </span>
+            </div>
+          ))}
         </div>
       </div>
     </section>
