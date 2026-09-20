@@ -16,7 +16,7 @@ export function CustomerReviews() {
   const current = CUSTOMER_REVIEWS[currentIndex]
 
   return (
-    <section id="reviews-section" className="py-16 md:py-24 bg-brand-light/60 border-t border-brand-dark/10 overflow-hidden">
+    <section id="reviews-section" className="scroll-mt-24 py-16 md:py-24 bg-brand-light/60 border-t border-brand-dark/10 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Trust Metrics Bar */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 pb-16 border-b border-brand-dark/10">
