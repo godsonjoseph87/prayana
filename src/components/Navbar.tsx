@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import { ChevronDown, Phone, MessageSquare, Menu, X, Triangle, Calendar, ShieldCheck, Car, Bus } from 'lucide-react'
+import { ChevronDown, Phone, MessageSquare, Menu, X, Calendar, ShieldCheck, Car, Bus } from 'lucide-react'
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false)

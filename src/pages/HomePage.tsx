@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom'
-import { FLEET_DATA } from '../data/fleetData'
 import { SERVICES_DATA } from '../data/servicesData'
 import { GALLERY_ITEMS } from '../data/galleryData'
 import { FeaturedDestinations } from '../components/FeaturedDestinations'
@@ -35,7 +34,6 @@ const iconMap: Record<string, typeof Car> = {
 }
 
 export function HomePage() {
-  const featuredVehicles = FLEET_DATA.filter((v) => v.featured)
 
   return (
     <div className="flex flex-col min-h-screen">
