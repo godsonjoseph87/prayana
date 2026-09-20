@@ -38,7 +38,7 @@ export function HomePage() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* 1. HERO SECTION */}
-      <section className="relative w-full min-h-[620px] lg:min-h-[720px] bg-brand-cream flex items-center overflow-hidden border-b border-brand-dark/10">
+      <section className="relative w-full min-h-[calc(100svh-72px)] md:min-h-[620px] lg:min-h-[720px] bg-brand-cream flex items-center overflow-hidden border-b border-brand-dark/10">
         {/* Background Visual Layer */}
         <div className="absolute inset-0 z-0 overflow-hidden">
           {/* Desktop Image */}
