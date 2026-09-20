@@ -88,17 +88,17 @@ export function Footer() {
             </h4>
             <div className="flex items-start gap-2.5 text-sm text-white/80">
               <MapPin className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
-              <span>Prayana Hub, MG Road / Airport Bypass, Kochi, Kerala 682016</span>
+              <span>Prayana Hub, MG Road / Airport Bypass, Kannur, Kerala 682016</span>
             </div>
             <a
-              href="tel:+919876543210"
+              href="tel:+919061951128"
               className="flex items-center gap-2.5 text-sm text-white/80 hover:text-white transition-colors"
             >
               <Phone className="w-4 h-4 text-emerald-400 shrink-0" />
-              <span>+91 98765 43210</span>
+              <span>+91 90619 51128</span>
             </a>
             <a
-              href="https://wa.me/919876543210?text=Hi%20Prayana%2C%20I%20would%20like%20to%20inquire%20about%20a%20vehicle%20booking."
+              href="https://wa.me/919061951128?text=Hi%20Prayana%2C%20I%20would%20like%20to%20inquire%20about%20a%20vehicle%20booking."
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2.5 text-sm text-emerald-300 hover:text-emerald-200 transition-colors"
@@ -107,11 +107,11 @@ export function Footer() {
               <span>WhatsApp Direct Chat</span>
             </a>
             <a
-              href="mailto:contact@prayanatravels.com"
+              href="mailto:prayanatravelplanners@gmail.com"
               className="flex items-center gap-2.5 text-sm text-white/80 hover:text-white transition-colors"
             >
               <Mail className="w-4 h-4 text-emerald-400 shrink-0" />
-              <span>booking@prayanatravels.com</span>
+              <span>prayanatravelplanners@gmail.com</span>
             </a>
             <div className="flex items-center gap-2.5 text-xs text-white/60 mt-1">
               <Clock className="w-3.5 h-3.5" />
@@ -124,7 +124,7 @@ export function Footer() {
         <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-white/60">
           <div className="flex flex-wrap gap-2 items-center justify-center md:justify-start">
             <span className="text-white/40">Serving:</span>
-            <span>Kochi (COK)</span> •
+            <span>Kannur (COK)</span> •
             <span>Trivandrum (TRV)</span> •
             <span>Kozhikode (CCJ)</span> •
             <span>Munnar</span> •

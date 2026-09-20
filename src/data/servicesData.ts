@@ -21,7 +21,7 @@ export const SERVICES_DATA: TransportService[] = [
     iconName: 'Car',
     image: 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=1200&q=80',
     shortDescription: 'Clean, air-conditioned sedans and SUVs for city errands, business meetings, and local sightseeing.',
-    fullDescription: 'Whether you have a day of meetings across Kochi, shopping errands in town, or a hospital visit, our local taxi service provides guaranteed punctuality, spotless vehicles, and courteous drivers who know the fastest routes.',
+    fullDescription: 'Whether you have a day of meetings across Kannur, shopping errands in town, or a hospital visit, our local taxi service provides guaranteed punctuality, spotless vehicles, and courteous drivers who know the fastest routes.',
     highlights: [
       'Point-to-point direct transfers & flexible 4hr / 8hr / 12hr city packages',
       'Zero surge pricing during peak hours or weather changes',
@@ -145,7 +145,7 @@ export const SERVICES_DATA: TransportService[] = [
     ],
     suitableVehicles: ['innova-crysta', '16-seater-urbania', '23-seater-marcopolo', '45-seater-volvo', '49-seater-ashok-leyland'],
     recommendedFor: [
-      'Destination weddings in Kerala (Kochi, Kumarakom, Kovalam)',
+      'Destination weddings in Kerala (Kannur, Kumarakom, Kovalam)',
       'Baraat processions & venue guest shuttles',
       'Bridal party luxury transport',
       'Post-wedding family sightseeing trips',

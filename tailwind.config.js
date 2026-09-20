@@ -23,6 +23,15 @@ export default {
         'roboto-slab': ['"Roboto Slab"', 'serif'],
         'raleway': ['"Raleway"', 'sans-serif'],
       },
+      keyframes: {
+        'marquee-x': {
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(-50%)' },
+        }
+      },
+      animation: {
+        'marquee-x': 'marquee-x 30s linear infinite',
+      }
     },
   },
   plugins: [],

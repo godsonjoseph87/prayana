@@ -77,10 +77,10 @@ export function BookingPage() {
     `\u{1F4DD} *Additional Requirements:*\n` +
     `${specialNotes || 'None'}\n\n` +
     `${divider}\n` +
-    `Generated from:\n` +
+    `Just Prayana\n` +
     `*Prayana Travels* \u{2728}`;
 
-  const whatsappUrl = `https://wa.me/919876543210?text=${encodeURIComponent(whatsappMessage)}`
+  const whatsappUrl = `https://wa.me/919061951128?text=${encodeURIComponent(whatsappMessage)}`
 
   return (
     <div className="min-h-screen bg-brand-cream py-12 md:py-16">
@@ -275,7 +275,7 @@ export function BookingPage() {
                       <input
                         type="text"
                         required
-                        placeholder="e.g. Cochin Airport (COK) or Kochi City"
+                        placeholder="e.g. Cochin Airport (COK) or Kannur City"
                         value={pickup}
                         onChange={(e) => setPickup(e.target.value)}
                         className="w-full bg-brand-light border border-brand-dark/15 text-brand-dark text-xs rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-brand-green/50"
@@ -318,7 +318,7 @@ export function BookingPage() {
                       <input
                         type="tel"
                         required
-                        placeholder="+91 98765 43210"
+                        placeholder="+91 90619 51128"
                         value={phone}
                         onChange={(e) => setPhone(e.target.value)}
                         className="w-full bg-brand-light border border-brand-dark/15 text-brand-dark text-xs rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-brand-green/50"
@@ -416,7 +416,7 @@ export function BookingPage() {
                 Our support team is active 24/7 on WhatsApp. Share your dates and destination for immediate quotes and live vehicle photos.
               </p>
               <a
-                href="https://wa.me/919876543210?text=Hi%20Prayana%2C%20I%20would%20like%20to%20inquire%20about%20a%20vehicle%20booking."
+                href="https://wa.me/919061951128?text=Hi%20Prayana%2C%20I%20would%20like%20to%20inquire%20about%20a%20vehicle%20booking."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full py-3 px-4 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs uppercase tracking-wider rounded-xl transition-colors flex items-center justify-center gap-2 shadow-md"

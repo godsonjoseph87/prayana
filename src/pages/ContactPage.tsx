@@ -21,7 +21,7 @@ export function ContactPage() {
   }
 
     const divider = '\u2501'.repeat(26);
-  const whatsappInquiryUrl = `https://wa.me/919876543210?text=${encodeURIComponent(
+  const whatsappInquiryUrl = `https://wa.me/919061951128?text=${encodeURIComponent(
     `${divider}\n` +
     `       \u{1F690} *TRAVEL ENQUIRY* \u{1F334}\n` +
     `${divider}\n\n` +
@@ -37,7 +37,7 @@ export function ContactPage() {
     `\u{1F4DD} *Additional Requirements:*\n` +
     `${message || 'None'}\n\n` +
     `${divider}\n` +
-    `Generated from:\n` +
+    `Just Prayana\n` +
     `*Prayana Travels* \u{2728}`
   )}`
 
@@ -76,10 +76,10 @@ export function ContactPage() {
                       Phone Call Support
                     </span>
                     <a
-                      href="tel:+919876543210"
+                      href="tel:+919061951128"
                       className="text-base font-bold text-brand-dark hover:text-brand-green transition-colors"
                     >
-                      +91 98765 43210
+                      +91 90619 51128
                     </a>
                     <p className="text-xs text-brand-dark/60 mt-0.5">
                       Available 24 hours / 7 days for urgent bookings
@@ -97,12 +97,12 @@ export function ContactPage() {
                       WhatsApp Quick Chat
                     </span>
                     <a
-                      href="https://wa.me/919876543210?text=Hi%20Prayana%2C%20I%20would%20like%20to%20inquire%20about%20a%20vehicle%20booking."
+                      href="https://wa.me/919061951128?text=Hi%20Prayana%2C%20I%20would%20like%20to%20inquire%20about%20a%20vehicle%20booking."
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-base font-bold text-emerald-700 hover:text-emerald-800 transition-colors"
                     >
-                      +91 98765 43210
+                      +91 90619 51128
                     </a>
                     <p className="text-xs text-brand-dark/60 mt-0.5">
                       Fastest response for rates, vehicle photos & availability
@@ -120,10 +120,10 @@ export function ContactPage() {
                       Official Email
                     </span>
                     <a
-                      href="mailto:booking@prayanatravels.com"
+                      href="mailto:prayanatravelplanners@gmail.com"
                       className="text-base font-bold text-brand-dark hover:text-brand-green transition-colors"
                     >
-                      booking@prayanatravels.com
+                      prayanatravelplanners@gmail.com
                     </a>
                     <p className="text-xs text-brand-dark/60 mt-0.5">
                       Corporate RFPs, GST invoicing & vendor coordination
@@ -141,7 +141,7 @@ export function ContactPage() {
                       Central Hub Office
                     </span>
                     <p className="text-sm font-semibold text-brand-dark">
-                      Prayana Fleet Hub, MG Road / Airport Bypass, Kochi, Kerala 682016
+                      Prayana Fleet Hub, MG Road / Airport Bypass, Kannur, Kerala 682016
                     </p>
                     <p className="text-xs text-brand-dark/60 mt-0.5">
                       Branch depots in Trivandrum, Kozhikode & Munnar
@@ -160,7 +160,7 @@ export function ContactPage() {
                 We operate across all 14 districts of Kerala with inter-state permits for Tamil Nadu, Karnataka, and Andhra Pradesh.
               </p>
               <div className="flex flex-wrap gap-2 text-[11px] text-white/90">
-                <span className="bg-white/10 px-2.5 py-1 rounded-md">Kochi Airport (COK)</span>
+                <span className="bg-white/10 px-2.5 py-1 rounded-md">Kannur Airport (COK)</span>
                 <span className="bg-white/10 px-2.5 py-1 rounded-md">Trivandrum (TRV)</span>
                 <span className="bg-white/10 px-2.5 py-1 rounded-md">Calicut (CCJ)</span>
                 <span className="bg-white/10 px-2.5 py-1 rounded-md">Munnar</span>
@@ -225,7 +225,7 @@ export function ContactPage() {
                       <input
                         type="tel"
                         required
-                        placeholder="+91 98765 43210"
+                        placeholder="+91 90619 51128"
                         value={phone}
                         onChange={(e) => setPhone(e.target.value)}
                         className="w-full bg-brand-light border border-brand-dark/15 text-brand-dark text-xs rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-brand-green/50"

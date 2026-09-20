@@ -52,7 +52,7 @@ export function ServicesPage() {
             )
 
             const whatsappMessage = `Hi Prayana, I would like to inquire about your ${service.title} service. Please provide details.`
-            const whatsappUrl = `https://wa.me/919876543210?text=${encodeURIComponent(whatsappMessage)}`
+            const whatsappUrl = `https://wa.me/919061951128?text=${encodeURIComponent(whatsappMessage)}`
 
             return (
               <div

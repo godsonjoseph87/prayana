@@ -62,14 +62,14 @@ export function Navbar() {
           </div>
           <div className="flex items-center gap-5">
             <a
-              href="tel:+919876543210"
+              href="tel:+919061951128"
               className="flex items-center gap-1.5 text-white/90 hover:text-white transition-colors"
             >
               <Phone className="w-3 h-3 text-emerald-400" />
-              <span>+91 98765 43210</span>
+              <span>+91 90619 51128</span>
             </a>
             <a
-              href="https://wa.me/919876543210?text=Hi%20Prayana%2C%20I%20would%20like%20to%20inquire%20about%20a%20vehicle%20booking."
+              href="https://wa.me/919061951128?text=Hi%20Prayana%2C%20I%20would%20like%20to%20inquire%20about%20a%20vehicle%20booking."
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-1.5 text-emerald-300 hover:text-emerald-200 transition-colors"
@@ -96,8 +96,8 @@ export function Navbar() {
               to="/"
               className="flex items-center gap-2.5 text-brand-dark no-underline group"
             >
-              <div className="w-9 h-9 rounded-lg bg-brand-dark flex items-center justify-center text-white shadow-sm group-hover:bg-brand-green transition-colors">
-                <Triangle className="w-4 h-4 fill-white rotate-0" />
+              <div className="w-12 h-12 rounded-lg flex items-center justify-center overflow-hidden shadow-sm">
+                <img src="https://iili.io/nTPJ8Tg.png" alt="Prayana Logo" className="w-full h-full object-cover" />
               </div>
               <div className="flex flex-col">
                 <span className="text-xl font-bold tracking-tight text-brand-dark font-helvetica-neue leading-none">
@@ -237,7 +237,7 @@ export function Navbar() {
             {/* Desktop Right CTAs */}
             <div className="hidden lg:flex items-center gap-3">
               <a
-                href="https://wa.me/919876543210?text=Hi%20Prayana%2C%20I%20would%20like%20to%20inquire%20about%20a%20vehicle%20booking."
+                href="https://wa.me/919061951128?text=Hi%20Prayana%2C%20I%20would%20like%20to%20inquire%20about%20a%20vehicle%20booking."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 px-3.5 py-2 border border-brand-dark/20 text-brand-dark rounded-full text-xs font-semibold uppercase tracking-wider hover:bg-brand-dark/5 transition-colors"
@@ -352,7 +352,7 @@ export function Navbar() {
                 Book a Vehicle Online
               </Link>
               <a
-                href="https://wa.me/919876543210?text=Hi%20Prayana%2C%20I%20would%20like%20to%20inquire%20about%20a%20vehicle%20booking."
+                href="https://wa.me/919061951128?text=Hi%20Prayana%2C%20I%20would%20like%20to%20inquire%20about%20a%20vehicle%20booking."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full py-3.5 bg-emerald-700 text-white text-center font-semibold uppercase tracking-wider rounded-xl hover:bg-emerald-800 transition-colors flex items-center justify-center gap-2"
@@ -361,11 +361,11 @@ export function Navbar() {
                 Chat on WhatsApp
               </a>
               <a
-                href="tel:+919876543210"
+                href="tel:+919061951128"
                 className="w-full py-3.5 border border-brand-dark/20 text-brand-dark text-center font-semibold uppercase tracking-wider rounded-xl hover:bg-brand-dark/5 transition-colors flex items-center justify-center gap-2"
               >
                 <Phone className="w-4 h-4 text-brand-green" />
-                Call +91 98765 43210
+                Call +91 90619 51128
               </a>
             </div>
           </div>

@@ -235,7 +235,7 @@ export function FleetPage() {
               Request Custom Package
             </Link>
             <a
-              href="https://wa.me/919876543210?text=Hi%20Prayana%2C%20I%20need%20assistance%20with%20a%20multi-vehicle%20booking."
+              href="https://wa.me/919061951128?text=Hi%20Prayana%2C%20I%20need%20assistance%20with%20a%20multi-vehicle%20booking."
               target="_blank"
               rel="noopener noreferrer"
               className="px-5 py-3 bg-emerald-700 hover:bg-emerald-800 text-white text-xs font-bold uppercase tracking-wider rounded-full transition-colors flex items-center gap-1.5"
@@ -244,7 +244,7 @@ export function FleetPage() {
               <span>WhatsApp Manager</span>
             </a>
             <a
-              href="tel:+919876543210"
+              href="tel:+919061951128"
               className="p-3 border border-brand-dark/20 text-brand-dark hover:bg-brand-dark/5 rounded-full transition-colors"
               title="Call us"
             >

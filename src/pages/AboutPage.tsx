@@ -62,7 +62,7 @@ export function AboutPage() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-8 text-white">
                 <span className="text-xs font-semibold uppercase text-emerald-300">
-                  Headquartered in Kochi, Kerala
+                  Headquartered in Kannur, Kerala
                 </span>
                 <h4 className="text-xl font-bold mt-1">
                   10+ Years of Hospitality & Highway Excellence

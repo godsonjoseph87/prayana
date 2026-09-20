@@ -17,7 +17,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     vehicleType: 'Tempo Travellers',
     image: 'https://images.openai.com/static-rsc-4/6v9w5vHNV0BO7Tk5WjH5ZyQYSdvu6Ohhuw-YtBn76kj2kXdfmhGBKC_XmhTZ3L38Wa-foNDu2DtApMu6aZbFZFxHxSxHocSd8aL8ST_lAGLkiKeLMmb5mADR6mnhh3ej18u1OSWSq9N1bceiaq7yhb8-NnnK843QD0c06H5D9_0?purpose=inline',
     caption: 'Executive Force Urbania with aircraft-style panoramic windows and plush pushback seating.',
-    location: 'Kochi Hub',
+    location: 'Kannur Hub',
   },
   {
     id: 'g-2',
@@ -35,7 +35,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     vehicleType: 'Large Buses',
     image: 'https://images.openai.com/static-rsc-4/QHNPXSPg9DAOY4oMYW4R5Pushxuc2rbsoQ_ZSMbBunpUMf5JeH-HsTFWlut9JJtb-ePkQeWTs8XGwhEGOkcf0SdS2oyNKcut-Ie3Z7i_3KsiCGSiosvSKYubjMJGPYMAM72gB289SK3Sm3Ffbb3XF6o0YH4X8ehDEpfaVk3itWY?purpose=inline',
     caption: 'Daimler air-suspension high-deck coach chartered for an international medical conference.',
-    location: 'Le Méridien Kochi',
+    location: 'Le Méridien Kannur',
   },
   {
     id: 'g-4',
@@ -44,7 +44,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     vehicleType: 'Cars',
     image: 'https://upload.wikimedia.org/wikipedia/commons/6/61/Maruti_Suzuki_Dzire_VXi_VVT_-_Subcompact_Car_-_Kolkata_2018-01-17_7574.JPG?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original',
     caption: 'Sanitized and air-conditioned Dzire ready for point-to-point city transit.',
-    location: 'Marine Drive, Kochi',
+    location: 'Marine Drive, Kannur',
   },
   {
     id: 'g-5',
@@ -107,11 +107,11 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: 'g-15',
-    title: 'Kochi – Fort Kochi',
+    title: 'Kannur – Fort Kannur',
     category: 'journeys',
     image: 'https://images.pexels.com/photos/34252177/pexels-photo-34252177.jpeg',
     caption: 'Explore rich heritage, cultural architecture, and iconic Chinese fishing nets.',
-    location: 'Kochi, Kerala',
+    location: 'Kannur, Kerala',
   },
 
   // Events
@@ -137,6 +137,6 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'events',
     image: 'https://images.pexels.com/photos/32654427/pexels-photo-32654427.jpeg',
     caption: 'Spiritual group pilgrimage across South India temples.',
-    location: 'Madurai & Rameswaram Circuit',
+    location: 'Trivandrum Padmanabhaswamy Temple',
   },
 ]

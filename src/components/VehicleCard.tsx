@@ -7,7 +7,7 @@ interface VehicleCardProps {
 }
 
 export function VehicleCard({ vehicle }: VehicleCardProps) {
-  const whatsappUrl = `https://wa.me/919876543210?text=${encodeURIComponent(
+  const whatsappUrl = `https://wa.me/919061951128?text=${encodeURIComponent(
     `Hi Prayana, I am interested in booking the ${vehicle.name} (${vehicle.capacityDisplay}). Please provide availability and pricing.`
   )}`
 

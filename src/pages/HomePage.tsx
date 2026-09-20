@@ -2,10 +2,11 @@ import { Link } from 'react-router-dom'
 import { FLEET_DATA } from '../data/fleetData'
 import { SERVICES_DATA } from '../data/servicesData'
 import { GALLERY_ITEMS } from '../data/galleryData'
-import { VehicleCard } from '../components/VehicleCard'
+import { FeaturedDestinations } from '../components/FeaturedDestinations'
 import { CapacitySpectrum } from '../components/CapacitySpectrum'
 import { PassengerSearch } from '../components/PassengerSearch'
 import { CustomerReviews } from '../components/CustomerReviews'
+import { HeroReviews } from '../components/HeroReviews'
 import {
   ShieldCheck,
   CheckCircle2,
@@ -44,22 +45,22 @@ export function HomePage() {
         <div className="absolute inset-0 z-0 overflow-hidden">
           {/* Desktop Image */}
           <img
-            src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1920&q=80"
+            src="https://iili.io/nT6udrX.jpg"
             alt="Prayana Luxury Fleet Kerala"
             className="hidden md:block w-full h-full object-cover object-center opacity-100 animate-zoom-in-bg origin-center"
           />
           {/* Mobile Image (Munnar/Kerala scenic vertical) */}
           <img
-            src="https://images.unsplash.com/photo-1593693397690-362cb9666fc2?auto=format&fit=crop&w=800&q=80"
+            src="https://iili.io/nT6udrX.jpg"
             alt="Prayana Luxury Fleet Kerala Mobile"
             className="block md:hidden w-full h-full object-cover object-center opacity-100 animate-zoom-in-bg origin-center"
           />
-          {/* Subtle dark overlay just to ensure the image isn't blown out */}
-          <div className="absolute inset-0 bg-black/10" />
+          {/* Subtle dark overlay for premium high-contrast look */}
+          <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/30 to-transparent" />
         </div>
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
-          <div className="max-w-3xl flex flex-col items-start bg-white/50 backdrop-blur-md p-8 sm:p-10 rounded-3xl border border-white/50 shadow-2xl">
+          <div className="w-full max-w-6xl flex flex-col items-start py-8 sm:py-10">
             {/* Announcement Pill */}
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-brand-dark/15 bg-white/80 shadow-xs mb-6 animate-fade-down">
               <Sparkles className="w-3.5 h-3.5 text-emerald-700" />
@@ -69,14 +70,14 @@ export function HomePage() {
             </div>
 
             {/* Headline */}
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-light text-brand-dark tracking-tight leading-[1.08] font-helvetica-neue mb-5 animate-fade-up stagger-1">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-light text-white tracking-tight leading-[1.08] font-helvetica-neue mb-5 animate-fade-up stagger-1">
               Comfortable Travel.<br />
               Reliable Vehicles.<br />
-              <span className="font-semibold text-brand-green">Every Journey.</span>
+              <span className="font-semibold text-emerald-400">Every Journey.</span>
             </h1>
 
             {/* Subhead */}
-            <p className="text-base sm:text-lg text-brand-dark/80 font-light leading-relaxed mb-8 max-w-2xl animate-fade-up stagger-2">
+            <p className="text-base sm:text-lg text-white/90 font-light leading-relaxed mb-8 max-w-5xl animate-fade-up stagger-2">
               Cars, SUVs, Tempo Travellers & Luxury Buses for rental, airport transfers, Kerala holiday tours, and corporate transportation.
             </p>
 
@@ -91,7 +92,7 @@ export function HomePage() {
               </Link>
 
               <a
-                href="https://wa.me/919876543210?text=Hi%20Prayana%2C%20I%20would%20like%20to%20inquire%20about%20a%20vehicle%20booking."
+                href="https://wa.me/919061951128?text=Hi%20Prayana%2C%20I%20would%20like%20to%20inquire%20about%20a%20vehicle%20booking."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-3.5 bg-emerald-700 hover:bg-emerald-800 text-white font-semibold text-sm tracking-wide uppercase rounded-full shadow-md hover:shadow-lg transition-all flex items-center gap-2"
@@ -101,7 +102,7 @@ export function HomePage() {
               </a>
 
               <a
-                href="tel:+919876543210"
+                href="tel:+919061951128"
                 className="px-5 py-3.5 bg-white/90 hover:bg-white border border-brand-dark/20 text-brand-dark font-semibold text-sm tracking-wide uppercase rounded-full shadow-xs hover:shadow transition-all flex items-center gap-2"
               >
                 <Phone className="w-4 h-4 text-brand-green" />
@@ -109,24 +110,9 @@ export function HomePage() {
               </a>
             </div>
 
-            {/* Four Trust Checklist Bullets */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-6 border-t border-brand-dark/15 w-full text-xs text-brand-dark/85 font-medium animate-fade-up stagger-4">
-              <div className="flex items-center gap-2">
-                <CheckCircle2 className="w-4 h-4 text-emerald-700 shrink-0" />
-                <span>✓ Well-maintained & sanitized vehicles</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <CheckCircle2 className="w-4 h-4 text-emerald-700 shrink-0" />
-                <span>✓ Verified & experienced drivers</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <CheckCircle2 className="w-4 h-4 text-emerald-700 shrink-0" />
-                <span>✓ 3 to 49 seating capacities</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <CheckCircle2 className="w-4 h-4 text-emerald-700 shrink-0" />
-                <span>✓ Local & outstation travel with permits</span>
-              </div>
+            {/* Reviews component replacing checklist */}
+            <div className="w-full pt-6 border-t border-white/15 animate-fade-up stagger-4">
+              <HeroReviews />
             </div>
           </div>
         </div>
@@ -138,47 +124,9 @@ export function HomePage() {
       {/* 3. QUICK VEHICLE SEARCH (By Passenger Count) */}
       <PassengerSearch />
 
-      {/* 4. FEATURED FLEET SHOWCASE */}
-      <section className="py-16 md:py-24 bg-white border-b border-brand-dark/10">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
-            <div>
-              <span className="text-xs font-bold uppercase tracking-[0.25em] text-brand-green">
-                Our Fleet
-              </span>
-              <h2 className="text-3xl sm:text-4xl font-light text-brand-dark tracking-tight mt-1 font-helvetica-neue">
-                Featured Vehicles for Your Journey
-              </h2>
-              <p className="text-sm text-brand-dark/70 mt-2 max-w-xl">
-                Every vehicle is impeccably maintained, air-conditioned, and backed by a professional chauffeur.
-              </p>
-            </div>
-            <Link
-              to="/fleet"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-brand-dark hover:bg-brand-green text-white text-xs font-bold uppercase tracking-wider rounded-full transition-colors shrink-0"
-            >
-              <span>View All 14 Vehicles</span>
-              <ArrowRight className="w-4 h-4" />
-            </Link>
-          </div>
+      {/* 4. FEATURED DESTINATIONS SHOWCASE */}
+      <FeaturedDestinations />
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
-            {featuredVehicles.map((vehicle) => (
-              <VehicleCard key={vehicle.id} vehicle={vehicle} />
-            ))}
-          </div>
-
-          <div className="mt-12 text-center">
-            <Link
-              to="/fleet"
-              className="inline-flex items-center gap-2 text-sm font-bold uppercase tracking-wider text-brand-dark hover:text-brand-green transition-colors"
-            >
-              <span>Browse Cars, SUVs, Travellers, Mini Buses & Large Coaches</span>
-              <ArrowRight className="w-4 h-4" />
-            </Link>
-          </div>
-        </div>
-      </section>
 
       {/* 5. OUR SERVICES GRID */}
       <section className="py-16 md:py-24 bg-brand-cream border-b border-brand-dark/10">
@@ -418,7 +366,7 @@ export function HomePage() {
             </Link>
 
             <a
-              href="https://wa.me/919876543210?text=Hi%20Prayana%2C%20I%20would%20like%20to%20inquire%20about%20a%20vehicle%20booking."
+              href="https://wa.me/919061951128?text=Hi%20Prayana%2C%20I%20would%20like%20to%20inquire%20about%20a%20vehicle%20booking."
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-4 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm uppercase tracking-wider rounded-full transition-all shadow-lg flex items-center gap-2"
@@ -428,11 +376,11 @@ export function HomePage() {
             </a>
 
             <a
-              href="tel:+919876543210"
+              href="tel:+919061951128"
               className="px-6 py-4 border border-white/20 text-white hover:bg-white/10 font-bold text-sm uppercase tracking-wider rounded-full transition-all flex items-center gap-2"
             >
               <Phone className="w-4 h-4 text-emerald-400" />
-              <span>+91 98765 43210</span>
+              <span>+91 90619 51128</span>
             </a>
           </div>
         </div>

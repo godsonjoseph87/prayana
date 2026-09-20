@@ -68,10 +68,10 @@ export function VehicleDetailPage() {
     `\u{1F4CD} *Pickup*     : ${formPickup || 'Not Specified'}\n` +
     `\u{1F3C1} *Destination*: ${formDrop || 'Not Specified'}\n\n` +
     `${divider}\n` +
-    `Generated from:\n` +
+    `Just Prayana\n` +
     `*Prayana Travels* \u{2728}`;
 
-  const whatsappUrl = `https://wa.me/919876543210?text=${encodeURIComponent(whatsappMessage)}`
+  const whatsappUrl = `https://wa.me/919061951128?text=${encodeURIComponent(whatsappMessage)}`
 
   const handleQuickInquiry = (e: React.FormEvent) => {
     e.preventDefault()
@@ -299,7 +299,7 @@ export function VehicleDetailPage() {
 
                 <div className="flex gap-2">
                   <a
-                    href="tel:+919876543210"
+                    href="tel:+919061951128"
                     className="flex-1 py-3 px-4 bg-brand-light hover:bg-brand-cream border border-brand-dark/15 text-brand-dark font-bold text-xs uppercase tracking-wider rounded-xl transition-colors flex items-center justify-center gap-1.5"
                   >
                     <Phone className="w-3.5 h-3.5 text-brand-green" />
@@ -375,7 +375,7 @@ export function VehicleDetailPage() {
                       <input
                         type="tel"
                         required
-                        placeholder="+91 98765 43210"
+                        placeholder="+91 90619 51128"
                         value={formPhone}
                         onChange={(e) => setFormPhone(e.target.value)}
                         className="w-full bg-brand-light border border-brand-dark/15 text-brand-dark text-xs rounded-xl px-3.5 py-2.5 focus:outline-none focus:ring-2 focus:ring-brand-green/50"

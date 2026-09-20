@@ -7,7 +7,7 @@ interface FloatingWhatsAppProps {
 export function FloatingWhatsApp({ customMessage }: FloatingWhatsAppProps) {
   const defaultMessage = 'Hi Prayana, I would like to inquire about vehicle availability and pricing.'
   const text = encodeURIComponent(customMessage || defaultMessage)
-  const whatsappUrl = `https://wa.me/919876543210?text=${text}`
+  const whatsappUrl = `https://wa.me/919061951128?text=${text}`
 
   return (
     <aside aria-label="WhatsApp Quick Support" className="fixed bottom-20 md:bottom-8 right-5 z-40 flex items-center group">

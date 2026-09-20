@@ -24,7 +24,7 @@ export const CUSTOMER_REVIEWS: Review[] = [
   {
     id: 'rev-2',
     name: 'Meera & Kevin Thomas',
-    roleOrLocation: 'Dubai, UAE / Kochi',
+    roleOrLocation: 'Dubai, UAE / Kannur',
     rating: 5,
     tripType: 'Destination Wedding Guest Logistics',
     vehicleUsed: 'Innova Crysta & 2x 23-Seater Marcopolo Buses',
@@ -74,8 +74,7 @@ export const CUSTOMER_REVIEWS: Review[] = [
 ]
 
 export const TRUST_METRICS = [
-  { value: '10+', label: 'Years of Excellence', description: 'Serving travelers across South India' },
   { value: '25+', label: 'Fleet Vehicles', description: 'From 3-seat sedans to 49-seat luxury coaches' },
-  { value: '15,000+', label: 'Happy Travellers', description: 'Families, tourists & corporate delegates' },
-  { value: '50,000+', label: 'Trips Completed', description: 'With 99.8% on-time departure track record' },
+  { value: '7000+', label: 'Happy Travellers', description: 'Families, tourists & corporate delegates' },
+  { value: '3000+', label: 'Trips Completed', description: 'With 99.8% on-time departure track record' },
 ]
