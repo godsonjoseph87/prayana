@@ -57,8 +57,8 @@ export function HomePage() {
           <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/30 to-transparent" />
         </div>
 
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
-          <div className="w-full max-w-6xl flex flex-col items-start py-8 sm:py-10">
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6 pb-16 sm:py-24">
+          <div className="w-full max-w-6xl flex flex-col items-start pt-2 pb-8 sm:py-10">
             {/* Announcement Pill */}
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-brand-dark/15 bg-white/80 shadow-xs mb-6 animate-fade-down">
               <Sparkles className="w-3.5 h-3.5 text-emerald-700" />
@@ -74,10 +74,7 @@ export function HomePage() {
               <span className="font-semibold text-emerald-400">Every Journey.</span>
             </h1>
 
-            {/* Subhead */}
-            <p className="text-base sm:text-lg text-white/90 font-light leading-relaxed mb-8 max-w-5xl animate-fade-up stagger-2">
-              Cars, SUVs, Tempo Travellers & Luxury Buses for rental, airport transfers, Kerala holiday tours, and corporate transportation.
-            </p>
+
 
             {/* CTAs */}
             <div className="flex flex-wrap items-center gap-3 sm:gap-4 mb-10 animate-fade-up stagger-3">
